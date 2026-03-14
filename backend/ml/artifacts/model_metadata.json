@@ -1,0 +1,38 @@
+{
+  "trained_at": "2026-03-14T07:18:49.036468",
+  "n_train": 8398,
+  "n_test": 2100,
+  "mae": 90994.97,
+  "rmse": 200844.42,
+  "r2": 0.8688,
+  "mape": 20.31,
+  "cv_r2_mean": 0.8738,
+  "cv_r2_std": 0.0037,
+  "model_type": "GBM(70%) + RandomForest(30%) Ensemble",
+  "num_features": [
+    "km_driven",
+    "mileage",
+    "engine",
+    "max_power",
+    "seats",
+    "car_age",
+    "car_age_squared",
+    "car_age_cubed",
+    "km_per_year",
+    "km_driven_log",
+    "km_per_year_log",
+    "is_luxury",
+    "is_popular_brand",
+    "power_per_cc",
+    "age_x_km",
+    "mileage_x_power"
+  ],
+  "cat_features": [
+    "seller_type",
+    "transmission",
+    "owner",
+    "fuel",
+    "brand"
+  ],
+  "n_features_total": 21
+}
